@@ -1,0 +1,93 @@
+.list_song{
+    padding: 0px; 
+    overflow:auto;
+}
+.left_images{
+    float:left;
+}
+.song{
+    font-size: 12px;
+
+}
+.song_name{
+    font-weight: bold;
+    font-size: 12px;
+    display: block;
+}
+p{
+    margin: 0;
+}
+
+.x_1{
+    float: left;
+    width: 22px;
+    height: 20px;
+    padding-top: 0px;
+    text-align: center;
+    background: #A16EB1;
+    color: #FFF;
+    font-weight: bold;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.x_2{
+    float: left;
+    width: auto;
+    padding-left: 10px;
+
+}
+.top_mp3{
+
+    overflow: hidden;
+    border-bottom: 1px solid #DFDFDF;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    clear: both;
+    
+}
+.singer{
+    color: #878787;
+    padding-top: 5px;
+    font-size: 12px;
+}
+.second-nav {
+    background-color: #F9FADC;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .footer {
+    background: #222;
+    border-top: 5px solid #333;
+    color: #ccc;
+    font-weight: bold;
+    height: 50px;
+    line-height: 50px;
+    /*
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    */
+    }
